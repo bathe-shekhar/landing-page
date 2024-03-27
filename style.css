@@ -193,3 +193,16 @@ header {
     font-weight: bold;
     border-radius: 5px;
 }
+
+footer {
+    padding: 25px 150px;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    margin: auto;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0;
+}

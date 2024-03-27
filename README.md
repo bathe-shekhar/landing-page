@@ -8,5 +8,11 @@ The color and font style should be as per details given in 02.jpg
 
 Tools used:
 
-IDE - VSCode
+IDE - VSCode,
 Browser - Google Chrome
+
+Project Completion Notes:
+
+Time Required: 3 Hours approx.
+
+"The project is completed as per the requirement."
