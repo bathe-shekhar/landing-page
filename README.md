@@ -16,3 +16,8 @@ Project Completion Notes:
 Time Required: 3 Hours approx.
 
 "The project is completed as per the requirement."
+
+
+Project Extension Notes:
+
+The images are added for the better understanding of the project and for better look of landing-page.

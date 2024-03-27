@@ -81,10 +81,16 @@ header {
 .header-content-img-container {
     color: #E5E7EB;
     font-weight: 300;
-    background-color: #6D747D;
+    /* background-color: #6D747D; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-content-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .random-info {
@@ -102,8 +108,8 @@ header {
 .random-info-item-img {
     height: 150px;
     width: 150px;
-    border: 4px solid #3882F6;
-    border-radius: 10px;
+    /* border: 4px solid #3882F6; */
+
 }
 
 .random-info-item-block {
@@ -121,6 +127,13 @@ header {
 
 .random-info-item {
     margin: 30px;
+}
+
+.random-info-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .inspiring-quote-section {
@@ -192,6 +205,11 @@ header {
     padding: 10px 30px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.call-action-button:hover {
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
 }
 
 footer {
