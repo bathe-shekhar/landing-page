@@ -1,7 +1,7 @@
 body {
 
     margin: 0;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 }
 
 .navbar {
@@ -54,12 +54,13 @@ header {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero-secondary-text {
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
 }
 
@@ -67,14 +68,19 @@ header {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
-    padding: 5px 20px;
+    padding: 10px 30px;
     font-weight: bold;
     border-radius: 5px;
     margin-top: 10px;
 }
 
+.hero-button:hover {
+    color: #E5E7EB;
+}
+
 .header-content-img-container {
     color: #E5E7EB;
+    font-weight: 300;
     background-color: #6D747D;
     display: flex;
     justify-content: center;
@@ -82,14 +88,14 @@ header {
 }
 
 .random-info {
-    border: 1px solid red;
-    padding: 50px 150px;
+    /* border: 1px solid red; */
+    padding: 50px 150px 70px;
 }
 
 .random-info-header {
     font-size: 36px;
     color: #1F2937;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -110,8 +116,39 @@ header {
     width: 150px;
     text-align: center;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 .random-info-item {
     margin: 30px;
+}
+
+.inspiring-quote-section {
+    background-color: #E5E7EB;
+    /* border: 1px solid red; */
+    padding: 100px 150px 70px;
+}
+
+.inspiring-quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.inspiring-quote-block {
+    padding: 10px 150px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.inspiring-quote-author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 5px;
 }
