@@ -142,6 +142,7 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 800px;
+    margin: auto;
 }
 
 .inspiring-quote-author {
@@ -151,4 +152,44 @@ header {
     align-self: flex-end;
     margin-right: 20px;
     margin-top: 5px;
+}
+
+.call-to-action-section {
+    /* border: 1px solid red; */
+    padding: 100px 150px;
+}
+
+.call-to-action-block {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.call-to-action-msg-block {
+    color: #F9FAF8;
+}
+
+.call-to-action-msg-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-to-action-msg {
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.call-action-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
 }
